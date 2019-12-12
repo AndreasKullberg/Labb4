@@ -9,12 +9,10 @@
       "idiom": "universal"
     },
     {
-      "filename": "sweden-6.png",
       "scale": "2x",
       "idiom": "universal"
     },
     {
-      "filename": "sweden-7.png",
       "scale": "3x",
       "idiom": "universal"
     },
@@ -22,23 +20,19 @@
       "idiom": "iphone"
     },
     {
-      "filename": "sweden-1.png",
       "scale": "1x",
       "idiom": "iphone"
     },
     {
-      "filename": "sweden-2.png",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
-      "filename": "sweden-3.png",
       "subtype": "retina4",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
-      "filename": "sweden-4.png",
       "scale": "3x",
       "idiom": "iphone"
     },
@@ -46,12 +40,10 @@
       "idiom": "ipad"
     },
     {
-      "filename": "sweden-8.png",
       "scale": "1x",
       "idiom": "ipad"
     },
     {
-      "filename": "sweden-9.png",
       "scale": "2x",
       "idiom": "ipad"
     },
@@ -59,18 +51,15 @@
       "idiom": "watch"
     },
     {
-      "filename": "sweden-10.png",
       "scale": "2x",
       "idiom": "watch"
     },
     {
-      "filename": "sweden-11.png",
       "screenWidth": "{130,145}",
       "scale": "2x",
       "idiom": "watch"
     },
     {
-      "filename": "sweden-12.png",
       "screenWidth": "{146,165}",
       "scale": "2x",
       "idiom": "watch"
@@ -79,12 +68,10 @@
       "idiom": "mac"
     },
     {
-      "filename": "sweden-13.png",
       "scale": "1x",
       "idiom": "mac"
     },
     {
-      "filename": "sweden-14.png",
       "scale": "2x",
       "idiom": "mac"
     },
@@ -92,12 +79,10 @@
       "idiom": "car"
     },
     {
-      "filename": "sweden-15.png",
       "scale": "2x",
       "idiom": "car"
     },
     {
-      "filename": "sweden-16.png",
       "scale": "3x",
       "idiom": "car"
     },

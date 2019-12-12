@@ -8,5 +8,12 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="rawData.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="rawData.json" />
   </ItemGroup>
 </Project>

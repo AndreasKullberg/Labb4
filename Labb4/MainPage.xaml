@@ -1,7 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Labb4.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodel="clr-namespace:Labb4" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Labb4.MainPage">
+       <ContentPage.BindingContext>
+        <viewmodel:MainViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="Medium" />
+            <Setter Property="FontAttributes" Value="Bold" />
+            <Setter Property="Opacity" Value="0.7" />
+            <Setter Property="FontFamily" Value="Times New Roman" />
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Previous" Command="{Binding PrevButtonCommand}"/>
+        <ToolbarItem Text="Next" Command="{Binding NextButtonCommand}"/>
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <StackLayout Orientation="Vertical"
+                 VerticalOptions="Center"
+                 Margin="20"
+                 Spacing="20"
+                 >
+            <Image Source="{Binding SelectedCountry.PictureUrl}"
+               HeightRequest="130"
+               Aspect="AspectFit"
+               />
+            <Label Text="{Binding SelectedCountry.Name, StringFormat='Country: {0}'}"
+               HorizontalOptions="Center"
+               />
+            <Label Text="{Binding SelectedCountry.Currency, StringFormat='Currency: {0}'}"
+               HorizontalOptions="Center"
+               />
+            <Label Text="{Binding SelectedCountry.Population, StringFormat='Population: {0}'}"
+               HorizontalOptions="Center"
+               />
+            <Label Text="{Binding SelectedCountry.Description}"
+               FontAttributes="None"
+               FontSize="Small"
+               />
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

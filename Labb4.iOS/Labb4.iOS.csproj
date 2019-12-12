@@ -110,6 +110,35 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-1.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-10.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-11.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-12.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-13.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-14.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-15.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-16.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-2.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-3.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-4.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-5.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-6.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-7.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-8.png" />
+    <ImageAsset Include="Assets.xcassets\sweden.png.imageset\sweden-9.png" />
+    <ImageAsset Include="Assets.xcassets\norway.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\norway.png.imageset\norway-1.png" />
+    <ImageAsset Include="Assets.xcassets\norway.png.imageset\norway-2.png" />
+    <ImageAsset Include="Assets.xcassets\norway.png.imageset\norway-3.png" />
+    <ImageAsset Include="Assets.xcassets\norway.png.imageset\norway-4.png" />
+    <ImageAsset Include="Assets.xcassets\denmark.png.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\denmark.png.imageset\denmark-1.png" />
+    <ImageAsset Include="Assets.xcassets\denmark.png.imageset\denmark-2.png" />
+    <ImageAsset Include="Assets.xcassets\denmark.png.imageset\denmark-3.png" />
+    <ImageAsset Include="Assets.xcassets\denmark.png.imageset\denmark-4.png" />
+    <ImageAsset Include="Assets.xcassets\denmark.png.imageset\denmark.png" />
+    <ImageAsset Include="Assets.xcassets\norway.png.imageset\norway.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -129,5 +158,10 @@
       <Project>{31F300E2-A3BE-43DA-96F4-43C47053A040}</Project>
       <Name>Labb4</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\sweden.png.imageset\" />
+    <Folder Include="Assets.xcassets\norway.png.imageset\" />
+    <Folder Include="Assets.xcassets\denmark.png.imageset\" />
   </ItemGroup>
 </Project>

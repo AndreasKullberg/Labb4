@@ -4,6 +4,7 @@
       "idiom": "universal"
     },
     {
+      "filename": "norway.png",
       "scale": "1x",
       "idiom": "universal"
     },
@@ -19,23 +20,19 @@
       "idiom": "iphone"
     },
     {
-      "filename": "norway-1.png",
       "scale": "1x",
       "idiom": "iphone"
     },
     {
-      "filename": "norway-2.png",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
-      "filename": "norway-3.png",
       "subtype": "retina4",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
-      "filename": "norway-4.png",
       "scale": "3x",
       "idiom": "iphone"
     },
